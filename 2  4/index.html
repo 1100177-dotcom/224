@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doughnut Delight 圈圈悅色 | 職人手作甜甜圈精品</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="container navbar-container">
+            <a href="#" class="logo">
+                <i class="fa-solid fa-donut"></i> Doughnut Delight
+            </a>
+            <nav class="nav-menu">
+                <a href="#story">品牌故事</a>
+                <a href="#interactive">美味與好評</a>
+                <a href="#footer">聯絡我們</a>
+                <a href="#footer">關於</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="animated-background">
+            <div class="animation-overlay"></div>
+            
+            <div class="floating-donuts">
+                <div class="floating-donut donut-strawberry"></div>
+                <div class="floating-donut donut-matcha"></div>
+                <div class="floating-donut donut-chocolate"></div>
+                <div class="floating-donut donut-mango"></div>
+                <div class="floating-donut donut-blueberry"></div>
+            </div>
+        </div>
+
+        <div class="hero-content">
+            <h1>一口甜蜜，圈住幸福</h1>
+            <p>每日現烤手作，嚴選頂級食材，為您帶來最純粹的味蕾饗宴。</p>
+            <div class="hero-btns">
+                <a href="#footer" class="btn btn-primary">加入我們</a>
+                <a href="#interactive" class="btn btn-outline">好呀</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="story" class="brand-story">
+        <div class="container story-wrapper">
+            <div class="story-text">
+                <div class="section-title">
+                    <span>Our Story</span>
+                    <h2>品牌故事</h2>
+                </div>
+                <p>「Doughnut Delight 圈圈悅色」誕生於對烘焙的無比熱愛。我們深信，甜甜圈不只是甜點，更是傳遞快樂的媒介。每一個圓圈，都代表著圓滿與聚首。</p>
+                <p>我們堅持承襲正統職人工藝，嚴選法國進口發酵奶油與日本頂級麵粉。歷經低溫熟成發酵，拿捏精準的油炸與烘烤溫度，才成就出外皮酥脆、內裡極致蓬鬆的完美口感。佐以獨家研發的低糖淋醬，讓您在享受濃郁風味的同時，也能吃得輕盈無負擔。</p>
+            </div>
+            <div class="story-image">
+                <img src="https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?auto=format&fit=crop&w=800&q=80" alt="職人手作烘焙">
+            </div>
+        </div>
+    </section>
+
+    <section id="interactive" class="interactive-section">
+        <div class="container">
+            
+            <div class="tab-container">
+                <div class="tab-buttons">
+                    <button class="tab-btn active" onclick="switchTab('menu-panel', this)">美味菜單</button>
+                    <button class="tab-btn" onclick="switchTab('review-panel', this)">顧客好評</button>
+                </div>
+            </div>
+
+            <div id="menu-panel" class="tab-panel active">
+                <div class="product-grid">
+                    <div class="product-card">
+                        <div class="product-img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1551024601-bec78aea704b?auto=format&fit=crop&w=600&q=80" alt="經典原味糖霜">
+                        </div>
+                        <div class="product-info">
+                            <h3>經典原味糖霜</h3>
+                            <p class="desc">手工揉製經典麵團，裹上薄脆薄雪糖霜，最純粹的感動。</p>
+                            <div class="product-meta">
+                                <span class="price">$45</span>
+                                <a href="#" class="order-icon"><i class="fa-solid fa-basket-shopping"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1612240498936-65f5101365d2?auto=format&fit=crop&w=600&q=80" alt="濃情黑巧克力">
+                        </div>
+                        <div class="product-info">
+                            <h3>濃情黑巧克力</h3>
+                            <p class="desc">70%微苦比利時巧克力淋醬，灑上香脆堅果碎粒與苦甜可可粉。</p>
+                            <div class="product-meta">
+                                <span class="price">$55</span>
+                                <a href="#" class="order-icon"><i class="fa-solid fa-basket-shopping"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?auto=format&fit=crop&w=600&q=80" alt="肉桂小確幸">
+                        </div>
+                        <div class="product-info">
+                            <h3>肉桂核桃小確幸</h3>
+                            <p class="desc">特製肉桂糖粉均勻包裹，搭配慢火烘烤的香脆核桃碎粒。</p>
+                            <div class="product-meta">
+                                <span class="price">$60</span>
+                                <a href="#" class="order-icon"><i class="fa-solid fa-basket-shopping"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=600&q=80" alt="戀戀草莓派對">
+                        </div>
+                        <div class="product-info">
+                            <h3>戀戀草莓派對</h3>
+                            <p class="desc">天然草莓凍乾碎粒搭配大湖草莓調配的粉嫩糖霜，酸甜如初戀。</p>
+                            <div class="product-meta">
+                                <span class="price">$58</span>
+                                <a href="#" class="order-icon"><i class="fa-solid fa-basket-shopping"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="review-panel" class="tab-panel">
+                <div class="review-form-container">
+                    <h3>分享您的甜蜜體驗</h3>
+                    <form id="commentForm">
+                        <div class="form-group">
+                            <input type="text" id="userName" placeholder="您的稱呼（例如：林小姐）" required>
+                            <select id="userStars" required>
+                                <option value="5">⭐⭐⭐⭐⭐ 完美五星</option>
+                                <option value="4">⭐⭐⭐⭐ 很好吃</option>
+                                <option value="3">⭐⭐⭐ 普通</option>
+                                <option value="2">⭐⭐ 不太合口味</option>
+                                <option value="1">⭐ 需要改進</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="reviewText" rows="3" placeholder="留下您對圈圈悅色的美味評價..." required></textarea>
+                        </div>
+                        <button type="submit" class="submit-review-btn">送出美味評論</button>
+                    </form>
+                </div>
+
+                <div class="review-grid">
+                    <div class="review-card">
+                        <i class="fa-solid fa-quote-right quote-icon"></i>
+                        <div class="review-stars">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="review-text">「吃過他們家的原味糖霜，外皮酥脆內裡竟然像棉花糖一樣蓬鬆！而且甜度拿捏得剛剛好，一次吃兩個都不會膩！」</p>
+                        <div class="review-user">
+                            <div class="user-avatar">陳</div>
+                            <div class="user-info">
+                                <h4>陳小姐</h4>
+                                <span>科技業工程師 / 忠實熟客</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="review-card">
+                        <i class="fa-solid fa-quote-right quote-icon"></i>
+                        <div class="review-stars">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="review-text">「黑巧克力口味非常濃郁，帶有高級的微苦感，絕對不是那種廉價的甜味！包裝跟網頁風格也超級精緻，送禮超有面子。」</p>
+                        <div class="review-user">
+                            <div class="user-avatar">林</div>
+                            <div class="user-info">
+                                <h4>林先生</h4>
+                                <span>美食部落客</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer id="footer">
+        <div class="container footer-container">
+            <div class="footer-logo">
+                <h3>Doughnut Delight</h3>
+                <p>用心烘焙，圈起每一刻的喜悅。傳承正統職人工藝，每日新鮮現烤。</p>
+            </div>
+            <div class="footer-links">
+                <h4>快速連結</h4>
+                <ul>
+                    <li><a href="#story">品牌故事</a></li>
+                    <li><a href="#interactive">美味菜單</a></li>
+                    <li><a href="#interactive">顧客好評</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-line"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Doughnut Delight. All Rights Reserved. 僅供網站架構與設計示範使用</p>
+        </div>
+    </footer>
+
+    <script>
+        function switchTab(panelId, buttonElement) {
+            document.querySelectorAll('.tab-panel').forEach(panel => {
+                panel.classList.remove('active');
+            });
+            document.querySelectorAll('.tab-btn').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            document.getElementById(panelId).classList.add('active');
+            buttonElement.classList.add('active');
+        }
+
+        document.getElementById('commentForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const name = document.getElementById('userName').value;
+            const starsNum = document.getElementById('userStars').value;
+            const text = document.getElementById('reviewText').value;
+            
+            let starsHtml = '';
+            for(let i=0; i<5; i++) {
+                starsHtml += i < starsNum ? '<i class="fa-solid fa-star"></i>' : '<i class="fa-solid fa-star-regular"></i>';
+            }
+            
+            const reviewGrid = document.querySelector('.review-grid');
+            const newCard = document.createElement('div');
+            newCard.className = 'review-card new-comment';
+            newCard.innerHTML = `
+                <i class="fa-solid fa-quote-right quote-icon"></i>
+                <div class="review-stars">${starsHtml}</div>
+                <p class="review-text">「${text}」</p>
+                <div class="review-user">
+                    <div class="user-avatar">${name.charAt(0)}</div>
+                    <div class="user-info">
+                        <h4>${name}</h4>
+                        <span>剛剛發表 / 網站顧客</span>
+                    </div>
+                </div>
+            `;
+            
+            reviewGrid.insertBefore(newCard, reviewGrid.firstChild);
+            document.getElementById('commentForm').reset();
+        });
+    </script>
+</body>
+</html>
